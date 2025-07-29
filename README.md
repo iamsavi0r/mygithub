@@ -27,7 +27,7 @@ I'm a beginner in cybersecurity, passionate about Red Team operations, ethical h
 
 ## 🧰 Tools & Technologies
 
-<img src="https://skillicons.dev/icons?i=linux,bash,python,git,vscode,html,js&theme=light" />
+<img src="https://skillicons.dev/icons?i=linux,bash&theme=light" />
 
 + TryHackMe / HackTheBox  
 + VS Code, Obsidian (notes), GitHub CLI  
