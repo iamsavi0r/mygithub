@@ -1,1 +1,21 @@
+# Intigriti Challenge 1025 — SSRF Writeup (sanitized)
+
+**Date:** Oct 15, 2025  
+**Duration:** ~5 days  
+**Status:** Accepted by Intigriti (unintended solution)  
+
+## TL;DR
+Discovered SSRF on `challenge.php?url=...`, enumerated internal services via Apache *mod_status*, located upload endpoint. Although the intended POST-based upload chain was not fully achieved by me, I retrieved the challenge flag via an unintended shell left by another researcher and submitted a full report accepted by Intigriti.
+
+## Key skills/tools
+Burp Suite, ffuf, curl, PHP, gopher encoding, multipart/form-data, proc_open
+
+## Lessons & notes
+- Always check internal VHost IPs exposed in server-status.
+- Upload bypasses may require magic bytes + filename tricks.
+- Responsible disclosure: all testing done in CTF environment.
+
+*(Artifacts are sanitized — flags and exact internal IPs are redacted.)*
+
+[Full public writeup on Medium](https://savi0r.medium.com/intigriti-challenge-1025-unintended-solution-writeup-92ac5c9d425e)
 
